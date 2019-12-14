@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: tahoma;
+}
+body {
+  background: linear-gradient(-45deg, rgb(0, 60, 255), rgb(5, 155, 110));
+  min-height: 100vh;
+}
