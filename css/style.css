@@ -9,3 +9,17 @@ body {
   min-height: 100vh;
   color: white;
 }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  width: 70%;
+  margin: 20px auto;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(29, 29, 29, 0.096);
+  padding: 20px;
+  background: white;
+  color: black;
+}
